@@ -15,9 +15,9 @@ The challenge is to understand what the operator wanted to record, attempting to
 
 After googling for quite some time, I stumbled into a [blog post on Cosine Similarity](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html) and found a great starting point to finding the solution.
 So after reading:
-  # [Part 1](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html)
-  # [Part 2](http://www.gettingcirrius.com/2011/01/calculating-similarity-part-2-jaccard.html)
-  # [Part 3](http://www.gettingcirrius.com/2011/06/calculating-similarity-part-3-damerau.html)
+  1. [Part 1](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html)
+  2. [Part 2](http://www.gettingcirrius.com/2011/01/calculating-similarity-part-2-jaccard.html)
+  3. [Part 3](http://www.gettingcirrius.com/2011/06/calculating-similarity-part-3-damerau.html)
 
 The code presented was written in C and I am working for this project in VBScript, so I set off to make my own version of the code.
 
@@ -32,6 +32,6 @@ The key words here are [***an inner product space***](http://en.wikipedia.org/wi
 
 The cosine of two vectors can be derived from the Euclidena dot product formula:
 
-![Euclidean dot product](http://www.codecogs.com/png.latex?a \cdot b=||a|| ||b|| cos\theta)
+![Euclidean dot product](http://www.codecogs.com/png.latex?a \\cdot b=||a|| ||b|| cos\(\\theta\))
 
 
