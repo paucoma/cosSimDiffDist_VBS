@@ -29,7 +29,10 @@ As stated in [the wikipedia entry on Cosine Similarity](http://en.wikipedia.org/
 The key words here are [***an inner product space***](http://en.wikipedia.org/wiki/Inner_product_space). In linear algebra, an inner product space is a vector space with an additional structure called an inner product. This additional structure associates each pair of vectors in the space with a scalar quantity.
 
 The cosine of two vectors can be derived from the Euclidena dot product formula:
+
 ![Euclidean dot product][Euclidean_dor_product_formula_tex]
+
+![Euclidean dot product formula tex](http://www.codecogs.com/png.latex?a\dot b=||a|| ||b|| cos\theta)
 
 [Euclidean_dot_product_formula_tex]: http://www.codecogs.com/png.latex?a\dot b=||a|| ||b|| cos\theta
 
