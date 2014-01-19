@@ -1,7 +1,7 @@
-Cosine Similarity Difference Distance in VBScript
-=================================================
+Cosine Similarity Difference Distance 
+=====================================
 
-# Motivation #
+## Motivation ##
 
 I was given a task to automize the calculation of periodic consumption of base products in a mix. 
 My input is an excel sheet that operators fill out by hand with the product name and the quantity consumed each time. 
@@ -11,7 +11,7 @@ I have an exported list that includes the long-named version of the base product
 
 The challenge is to understand what the operator wanted to record, attempting to match their shortned version (each operator may make their own version) to the long-named base product names.
 
-# Approach #
+## Approach ##
 
 After googling for quite some time, I stumbled into a [blog post on Cosine Similarity](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html) and found a great starting point to finding the solution.
 So after reading:
@@ -21,7 +21,9 @@ So after reading:
 
 The code presented was written in C and I am working for this project in VBScript, so I set off to make my own version of the code.
 
-# Theory Cosine Similarity Difference Distance #
+## Theory ##
+
+### Cosine Similarity Difference Distance ###
 
 As stated in [the wikipedia entry on Cosine Similarity](http://en.wikipedia.org/wiki/Cosine_similarity) : 
   * Cosine similarity is a measure of similarity between two vectors of an inner product space that measures the cosine of the angle between them.
@@ -30,9 +32,6 @@ The key words here are [***an inner product space***](http://en.wikipedia.org/wi
 
 The cosine of two vectors can be derived from the Euclidena dot product formula:
 
-![Euclidean dot product][Euclidean_dor_product_formula_tex]
+![Euclidean dot product](http://www.codecogs.com/png.latex?a \cdot b=||a|| ||b|| cos\theta)
 
-![Euclidean dot product formula tex](http://www.codecogs.com/png.latex?a\dot b=||a|| ||b|| cos\theta)
-
-[Euclidean_dot_product_formula_tex]: http://www.codecogs.com/png.latex?a\dot b=||a|| ||b|| cos\theta
 
