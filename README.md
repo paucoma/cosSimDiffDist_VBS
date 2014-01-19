@@ -32,6 +32,6 @@ The key words here are [***an inner product space***](http://en.wikipedia.org/wi
 
 The cosine of two vectors can be derived from the Euclidena dot product formula:
 
-![Euclidean dot product](http://www.codecogs.com/png.latex?a \\cdot b=||a|| ||b|| cos\(\\theta\))
+![Euclidean dot product](http://www.codecogs.com/png.latex?a \\cdot b=\\|a\\| \\|b\\| cos\(\\theta\))
 
 
